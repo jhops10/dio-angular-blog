@@ -1,26 +1,18 @@
 <div class="container__big-card">
   <div class="big-card__img">
-    <img
-      src="https://atelierdelamusique.com.br/wp-content/uploads/2019/06/06e8bf_f56237d090244b1db7b0a957090927de_mv2.jpg"
-      alt=""
-      height="200px"
-    />
+    <img src="{{ imageCover }}" alt="" height="200px" />
   </div>
 
   <div class="big-card__title">
     <h1>
-      <a href="#">Guia Prático para estudar Teoria Musical</a>
+      <a href="#">{{ cardTitle }}</a>
     </h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-        consequat fermentum sem imperdiet dictum. Mauris pulvinar eros cursus
-        nibh tincidunt convallis. Nulla vestibulum, mauris non tristique
-        elementum, purus dui scelerisque massa, eget sollicitudin est nibh ac
-        augue. Nunc et nisi eros.
+        {{ cardDescription }}
       </a>
     </p>
   </div>
