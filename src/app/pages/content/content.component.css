@@ -9,7 +9,7 @@
 
 
 .content__cover img {
-  border: 5px solid rgb(138, 138, 138);
+  border: 5px solid #A68851;
   border-radius: 5px;
   width: 31.25rem;
   min-width: 31.25rem;
@@ -22,5 +22,11 @@
 
 .content__description p {
   margin: 0.625rem 0;
-  color: rgb(190, 190, 190);
+  color: #353440;
+}
+
+
+.full-article {
+  width: 900px;
+  height: 100%;
 }

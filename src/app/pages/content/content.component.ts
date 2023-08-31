@@ -27,6 +27,6 @@ export class ContentComponent implements OnInit {
 
     this.contentTitle = result.title;
     this.imageCover = result.imageCover;
-    this.contentDescription = result.description;
+    this.contentDescription = result.article;
   }
 }
