@@ -9,4 +9,5 @@ export class BigCardComponent {
   @Input() imageCover: string = '';
   @Input() cardTitle: string = '';
   @Input() cardDescription: string = '';
+  @Input() id: string = '0';
 }
